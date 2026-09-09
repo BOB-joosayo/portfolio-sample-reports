@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sample Energy Analysis Reports — Im Youngsoo</title>
+  <style>
+    :root {
+      --bg: #0b1b3a;
+      --card: #111f3f;
+      --text: #f4f7fb;
+      --muted: #a8b3c7;
+      --accent: #2f6bff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Calibri, sans-serif;
+      background: linear-gradient(160deg, #071226 0%, #0b1b3a 45%, #13284f 100%);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 48px 20px 64px;
+    }
+    main { max-width: 820px; margin: 0 auto; }
+    h1 { font-size: 1.8rem; margin: 0 0 8px; }
+    .note {
+      color: var(--muted);
+      line-height: 1.5;
+      margin: 0 0 28px;
+      font-size: 0.98rem;
+    }
+    .card {
+      background: rgba(17, 31, 63, 0.9);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin-bottom: 14px;
+    }
+    .card h2 { margin: 0 0 6px; font-size: 1.15rem; }
+    .card p { margin: 0 0 12px; color: var(--muted); font-size: 0.95rem; line-height: 1.45; }
+    a.btn {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.92rem;
+    }
+    a.btn:hover { filter: brightness(1.08); }
+    footer { margin-top: 28px; color: var(--muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Sample Energy Analysis Reports</h1>
+    <p class="note">
+      Interactive HTML samples built with R Markdown (anonymized / mock data).
+      These mirror the portfolio deliverables for Plant A, Tunnel A, and Public Agency A.
+      Not real customer deliverables.
+    </p>
+
+    <section class="card">
+      <h2>1. Plant A — AI Energy Diagnosis</h2>
+      <p>5-year KEPCO data diagnosis: anomalies, demand/bill forecast, optional-rate comparison.</p>
+      <a class="btn" href="./plant-a-ai-diagnosis.html">Open report</a>
+    </section>
+
+    <section class="card">
+      <h2>2. Tunnel A — Streetlight Tariff Analysis</h2>
+      <p>Tunnel lighting / streetlight tariff HTML report (sensor &amp; energy monitoring context).</p>
+      <a class="btn" href="./tunnel-a-streetlight.html">Open report</a>
+    </section>
+
+    <section class="card">
+      <h2>3. Public Agency A — General Tariff Analysis</h2>
+      <p>General tariff with regional TOU periods: peak timing, HVAC seasonality, savings &amp; forecast.</p>
+      <a class="btn" href="./agency-a-general-tariff.html">Open report</a>
+    </section>
+
+    <footer>
+      Im Youngsoo · Portfolio samples ·
+      <a href="https://github.com/BOB-joosayo/portfolio-sample-reports" style="color:#9ec1ff">GitHub repo</a>
+    </footer>
+  </main>
+</body>
+</html>
