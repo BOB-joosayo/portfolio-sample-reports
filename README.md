@@ -68,7 +68,3 @@ R Markdown 으로 만든 인터랙티브 HTML 이며, 실제 고객에게 제공
 - **시각화**: plotly · highcharter · ggplot2 (히트맵, 캘린더, 게이지, 예측 구간, 드릴다운)
 - **요금 계산**: 한전 요금표(계약종별 · 선택요금 · 계절 · 부하시간대)를 그대로 계산하는 자체 요금 엔진으로 청구서와 검증
 - **수집 · 결합**: RSelenium 으로 한전 고객 포털 자동 수집, 기상청 · 공휴일 공공 API 결합
-
-## 관련 저장소
-
-- [kepco-energy-analytics](https://github.com/BOB-joosayo/kepco-energy-analytics) — 이 리포트들의 데이터 수집 · 요금 엔진 · 분석 파이프라인 (R, 익명화 코드)
